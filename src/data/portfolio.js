@@ -1,20 +1,20 @@
 export default [
   {
-    title: "Project 1",
-    imgUrl: "/assets/placeholder.jpg",
-    stack: ["HTML", "CSS", "JavaScript"],
-    link: "https://www.youtube.com",
+    title: "Portfolio",
+    imgUrl: "assets/1.png",
+    stack: ["React", "Vite", "Tailwind CSS", "JavaScript"],
+    link: "https://github.com/KelvinAdiyanto/portfolio",
   },
   {
-    title: "Project 2",
-    imgUrl: "/assets/placeholder.jpg",
+    title: "Sentiment Sarcasm Detection",
+    imgUrl: "assets/2.png",
     stack: ["Python", "Artificial Intelligence"],
-    link: "https://www.youtube.com",
+    link: "https://github.com/KelvinAdiyanto/Sentiment-Sarcasm-Detection",
   },
   {
-    title: "Project 3",
-    imgUrl: "/assets/placeholder.jpg",
-    stack: ["HTML", "CSS", "JavaScript"],
-    link: "https://www.youtube.com",
+    title: "Shortest Path Problem",
+    imgUrl: "assets/3.png",
+    stack: ["Java", "HTML"],
+    link: "https://github.com/KelvinAdiyanto/Shortest-Path-Problem",
   },
 ];

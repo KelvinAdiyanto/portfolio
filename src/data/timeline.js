@@ -1,30 +1,21 @@
+const calculateYear = (startYear) => {
+  const currentYear = new Date().getFullYear();
+  return currentYear - startYear;
+};
+
 export default [
   {
     year: "Today",
-    title: "Placeholder",
-    duration: "X years",
+    title: "Computer Science Student",
+    duration: calculateYear(2022) + " years",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et libero turpis. Praesent id ex ante. Aliquam id arcu sit amet turpis suscipit porttitor sed at libero. Mauris imperdiet vestibulum pharetra. Phasellus at luctus justo, volutpat malesuada neque. Cras ac velit ullamcorper, rhoncus urna et, mollis nibh. Maecenas at orci eu nisl sagittis tincidunt vitae ac enim. Duis gravida viverra orci, id condimentum turpis ullamcorper ut. Sed leo risus, ultricies id lobortis id, dictum eget elit. Praesent rutrum ut velit non tempus. Morbi vel sapien ut augue porta ultricies vel eget risus. Morbi interdum facilisis nunc quis accumsan.",
+      "I'm currently a Computer Science student. Learning about programming, algorithms, data structures, and software development.",
   },
   {
-    year: "2024",
-    title: "Placeholder",
-    duration: "X years",
+    year: "2021",
+    title: "Intro to Programming",
+    duration: calculateYear(2021) + " years",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et libero turpis. Praesent id ex ante. Aliquam id arcu sit amet turpis suscipit porttitor sed at libero. Mauris imperdiet vestibulum pharetra. Phasellus at luctus justo, volutpat malesuada neque. Cras ac velit ullamcorper, rhoncus urna et, mollis nibh. Maecenas at orci eu nisl sagittis tincidunt vitae ac enim. Duis gravida viverra orci, id condimentum turpis ullamcorper ut. Sed leo risus, ultricies id lobortis id, dictum eget elit. Praesent rutrum ut velit non tempus. Morbi vel sapien ut augue porta ultricies vel eget risus. Morbi interdum facilisis nunc quis accumsan.",
-  },
-  {
-    year: "2023",
-    title: "Placeholder",
-    duration: "X years",
-    details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et libero turpis. Praesent id ex ante. Aliquam id arcu sit amet turpis suscipit porttitor sed at libero. Mauris imperdiet vestibulum pharetra. Phasellus at luctus justo, volutpat malesuada neque. Cras ac velit ullamcorper, rhoncus urna et, mollis nibh. Maecenas at orci eu nisl sagittis tincidunt vitae ac enim. Duis gravida viverra orci, id condimentum turpis ullamcorper ut. Sed leo risus, ultricies id lobortis id, dictum eget elit. Praesent rutrum ut velit non tempus. Morbi vel sapien ut augue porta ultricies vel eget risus. Morbi interdum facilisis nunc quis accumsan.",
-  },
-  {
-    year: "2022",
-    title: "Placeholder",
-    duration: "X years",
-    details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et libero turpis. Praesent id ex ante. Aliquam id arcu sit amet turpis suscipit porttitor sed at libero. Mauris imperdiet vestibulum pharetra. Phasellus at luctus justo, volutpat malesuada neque. Cras ac velit ullamcorper, rhoncus urna et, mollis nibh. Maecenas at orci eu nisl sagittis tincidunt vitae ac enim. Duis gravida viverra orci, id condimentum turpis ullamcorper ut. Sed leo risus, ultricies id lobortis id, dictum eget elit. Praesent rutrum ut velit non tempus. Morbi vel sapien ut augue porta ultricies vel eget risus. Morbi interdum facilisis nunc quis accumsan.",
+      "Learned my first programming language through online courses, and self-study.",
   },
 ];
